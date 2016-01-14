@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B65DACEC1C474254005825B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACEB1C474254005825B8 /* main.m */; };
+		B65DACEF1C474254005825B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACEE1C474254005825B8 /* AppDelegate.m */; };
+		B65DACF21C474254005825B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACF11C474254005825B8 /* ViewController.m */; };
+		B65DACF51C474254005825B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65DACF31C474254005825B8 /* Main.storyboard */; };
+		B65DACF81C474254005825B8 /* WDImageBrowse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B65DACF61C474254005825B8 /* WDImageBrowse.xcdatamodeld */; };
+		B65DACFA1C474254005825B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65DACF91C474254005825B8 /* Assets.xcassets */; };
+		B65DACFD1C474254005825B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65DACFB1C474254005825B8 /* LaunchScreen.storyboard */; };
+		B65DAD081C474254005825B8 /* WDImageBrowseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD071C474254005825B8 /* WDImageBrowseTests.m */; };
+		B65DAD131C474254005825B8 /* WDImageBrowseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD121C474254005825B8 /* WDImageBrowseUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B65DAD041C474254005825B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65DACDF1C474254005825B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65DACE61C474254005825B8;
+			remoteInfo = WDImageBrowse;
+		};
+		B65DAD0F1C474254005825B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B65DACDF1C474254005825B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B65DACE61C474254005825B8;
+			remoteInfo = WDImageBrowse;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B65DACE71C474254005825B8 /* WDImageBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDImageBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65DACEB1C474254005825B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B65DACED1C474254005825B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B65DACEE1C474254005825B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B65DACF01C474254005825B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B65DACF11C474254005825B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B65DACF41C474254005825B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B65DACF71C474254005825B8 /* WDImageBrowse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WDImageBrowse.xcdatamodel; sourceTree = "<group>"; };
+		B65DACF91C474254005825B8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B65DACFC1C474254005825B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B65DACFE1C474254005825B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65DAD031C474254005825B8 /* WDImageBrowseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDImageBrowseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65DAD071C474254005825B8 /* WDImageBrowseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDImageBrowseTests.m; sourceTree = "<group>"; };
+		B65DAD091C474254005825B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65DAD0E1C474254005825B8 /* WDImageBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDImageBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65DAD121C474254005825B8 /* WDImageBrowseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDImageBrowseUITests.m; sourceTree = "<group>"; };
+		B65DAD141C474254005825B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B65DACE41C474254005825B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DAD001C474254005825B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DAD0B1C474254005825B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B65DACDE1C474254005825B8 = {
+			isa = PBXGroup;
+			children = (
+				B65DACE91C474254005825B8 /* WDImageBrowse */,
+				B65DAD061C474254005825B8 /* WDImageBrowseTests */,
+				B65DAD111C474254005825B8 /* WDImageBrowseUITests */,
+				B65DACE81C474254005825B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B65DACE81C474254005825B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B65DACE71C474254005825B8 /* WDImageBrowse.app */,
+				B65DAD031C474254005825B8 /* WDImageBrowseTests.xctest */,
+				B65DAD0E1C474254005825B8 /* WDImageBrowseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B65DACE91C474254005825B8 /* WDImageBrowse */ = {
+			isa = PBXGroup;
+			children = (
+				B65DACED1C474254005825B8 /* AppDelegate.h */,
+				B65DACEE1C474254005825B8 /* AppDelegate.m */,
+				B65DACF01C474254005825B8 /* ViewController.h */,
+				B65DACF11C474254005825B8 /* ViewController.m */,
+				B65DACF31C474254005825B8 /* Main.storyboard */,
+				B65DACF91C474254005825B8 /* Assets.xcassets */,
+				B65DACFB1C474254005825B8 /* LaunchScreen.storyboard */,
+				B65DACFE1C474254005825B8 /* Info.plist */,
+				B65DACF61C474254005825B8 /* WDImageBrowse.xcdatamodeld */,
+				B65DACEA1C474254005825B8 /* Supporting Files */,
+			);
+			path = WDImageBrowse;
+			sourceTree = "<group>";
+		};
+		B65DACEA1C474254005825B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B65DACEB1C474254005825B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B65DAD061C474254005825B8 /* WDImageBrowseTests */ = {
+			isa = PBXGroup;
+			children = (
+				B65DAD071C474254005825B8 /* WDImageBrowseTests.m */,
+				B65DAD091C474254005825B8 /* Info.plist */,
+			);
+			path = WDImageBrowseTests;
+			sourceTree = "<group>";
+		};
+		B65DAD111C474254005825B8 /* WDImageBrowseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B65DAD121C474254005825B8 /* WDImageBrowseUITests.m */,
+				B65DAD141C474254005825B8 /* Info.plist */,
+			);
+			path = WDImageBrowseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B65DACE61C474254005825B8 /* WDImageBrowse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65DAD171C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowse" */;
+			buildPhases = (
+				B65DACE31C474254005825B8 /* Sources */,
+				B65DACE41C474254005825B8 /* Frameworks */,
+				B65DACE51C474254005825B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDImageBrowse;
+			productName = WDImageBrowse;
+			productReference = B65DACE71C474254005825B8 /* WDImageBrowse.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B65DAD021C474254005825B8 /* WDImageBrowseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65DAD1A1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseTests" */;
+			buildPhases = (
+				B65DACFF1C474254005825B8 /* Sources */,
+				B65DAD001C474254005825B8 /* Frameworks */,
+				B65DAD011C474254005825B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65DAD051C474254005825B8 /* PBXTargetDependency */,
+			);
+			name = WDImageBrowseTests;
+			productName = WDImageBrowseTests;
+			productReference = B65DAD031C474254005825B8 /* WDImageBrowseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B65DAD0D1C474254005825B8 /* WDImageBrowseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B65DAD1D1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseUITests" */;
+			buildPhases = (
+				B65DAD0A1C474254005825B8 /* Sources */,
+				B65DAD0B1C474254005825B8 /* Frameworks */,
+				B65DAD0C1C474254005825B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B65DAD101C474254005825B8 /* PBXTargetDependency */,
+			);
+			name = WDImageBrowseUITests;
+			productName = WDImageBrowseUITests;
+			productReference = B65DAD0E1C474254005825B8 /* WDImageBrowseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B65DACDF1C474254005825B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "何伟东";
+				TargetAttributes = {
+					B65DACE61C474254005825B8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B65DAD021C474254005825B8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B65DACE61C474254005825B8;
+					};
+					B65DAD0D1C474254005825B8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B65DACE61C474254005825B8;
+					};
+				};
+			};
+			buildConfigurationList = B65DACE21C474254005825B8 /* Build configuration list for PBXProject "WDImageBrowse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B65DACDE1C474254005825B8;
+			productRefGroup = B65DACE81C474254005825B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B65DACE61C474254005825B8 /* WDImageBrowse */,
+				B65DAD021C474254005825B8 /* WDImageBrowseTests */,
+				B65DAD0D1C474254005825B8 /* WDImageBrowseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B65DACE51C474254005825B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65DACFD1C474254005825B8 /* LaunchScreen.storyboard in Resources */,
+				B65DACFA1C474254005825B8 /* Assets.xcassets in Resources */,
+				B65DACF51C474254005825B8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DAD011C474254005825B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DAD0C1C474254005825B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B65DACE31C474254005825B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65DACF21C474254005825B8 /* ViewController.m in Sources */,
+				B65DACEF1C474254005825B8 /* AppDelegate.m in Sources */,
+				B65DACF81C474254005825B8 /* WDImageBrowse.xcdatamodeld in Sources */,
+				B65DACEC1C474254005825B8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DACFF1C474254005825B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65DAD081C474254005825B8 /* WDImageBrowseTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B65DAD0A1C474254005825B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B65DAD131C474254005825B8 /* WDImageBrowseUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B65DAD051C474254005825B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65DACE61C474254005825B8 /* WDImageBrowse */;
+			targetProxy = B65DAD041C474254005825B8 /* PBXContainerItemProxy */;
+		};
+		B65DAD101C474254005825B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B65DACE61C474254005825B8 /* WDImageBrowse */;
+			targetProxy = B65DAD0F1C474254005825B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B65DACF31C474254005825B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65DACF41C474254005825B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B65DACFB1C474254005825B8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B65DACFC1C474254005825B8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B65DAD151C474254005825B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B65DAD161C474254005825B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B65DAD181C474254005825B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDImageBrowse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B65DAD191C474254005825B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WDImageBrowse/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B65DAD1B1C474254005825B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDImageBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDImageBrowse.app/WDImageBrowse";
+			};
+			name = Debug;
+		};
+		B65DAD1C1C474254005825B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WDImageBrowseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WDImageBrowse.app/WDImageBrowse";
+			};
+			name = Release;
+		};
+		B65DAD1E1C474254005825B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDImageBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDImageBrowse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B65DAD1F1C474254005825B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WDImageBrowseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = xfmn.club.WDImageBrowseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WDImageBrowse;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B65DACE21C474254005825B8 /* Build configuration list for PBXProject "WDImageBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65DAD151C474254005825B8 /* Debug */,
+				B65DAD161C474254005825B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B65DAD171C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65DAD181C474254005825B8 /* Debug */,
+				B65DAD191C474254005825B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B65DAD1A1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65DAD1B1C474254005825B8 /* Debug */,
+				B65DAD1C1C474254005825B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B65DAD1D1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B65DAD1E1C474254005825B8 /* Debug */,
+				B65DAD1F1C474254005825B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B65DACF61C474254005825B8 /* WDImageBrowse.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B65DACF71C474254005825B8 /* WDImageBrowse.xcdatamodel */,
+			);
+			currentVersion = B65DACF71C474254005825B8 /* WDImageBrowse.xcdatamodel */;
+			path = WDImageBrowse.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B65DACDF1C474254005825B8 /* Project object */;
+}
