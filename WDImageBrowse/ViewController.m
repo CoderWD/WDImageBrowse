@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "WDImagesBrowseView.h"
 
 @interface ViewController ()
 
@@ -16,6 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSMutableArray *array = [NSMutableArray array];
+    [array addObject:[[NSBundle mainBundle] pathForResource:@"25b1OOOPIC19" ofType:@"jpg"]];
+    [array addObject:[[NSBundle mainBundle] pathForResource:@"1347158_132411659346_2" ofType:@"jpg"]];
+    [array addObject:[[NSBundle mainBundle] pathForResource:@"200921922311483_2" ofType:@"jpg"]];
+    [array addObject:[[NSBundle mainBundle] pathForResource:@"200912121754594322" ofType:@"jpg"]];
+    
+    WDImagesBrowseView *imagesBrowseView = [[WDImagesBrowseView alloc] initWithFrame:self.view.bounds];
+    [imagesBrowseView setImageFilePathArray:array];
+    [imagesBrowseView reloadData];
+    [self.view addSubview:imagesBrowseView];
     // Do any additional setup after loading the view, typically from a nib.
 }
 

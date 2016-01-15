@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A483F89BCE201F3A65416932 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E75747F6650842B6F1A673F /* Pods.framework */; };
+		B65753BA1C48DA5F001374DB /* 200921922311483_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65753B61C48DA5F001374DB /* 200921922311483_2.jpg */; };
+		B65753BB1C48DA5F001374DB /* 200912121754594322.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65753B71C48DA5F001374DB /* 200912121754594322.jpg */; };
+		B65753BC1C48DA5F001374DB /* 1347158_132411659346_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65753B81C48DA5F001374DB /* 1347158_132411659346_2.jpg */; };
+		B65753BD1C48DA5F001374DB /* 25b1OOOPIC19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B65753B91C48DA5F001374DB /* 25b1OOOPIC19.jpg */; };
+		B65753C01C48DC87001374DB /* ImageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65753BF1C48DC87001374DB /* ImageScrollView.m */; };
 		B65DACEC1C474254005825B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACEB1C474254005825B8 /* main.m */; };
 		B65DACEF1C474254005825B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACEE1C474254005825B8 /* AppDelegate.m */; };
 		B65DACF21C474254005825B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DACF11C474254005825B8 /* ViewController.m */; };
@@ -16,6 +22,12 @@
 		B65DACFD1C474254005825B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B65DACFB1C474254005825B8 /* LaunchScreen.storyboard */; };
 		B65DAD081C474254005825B8 /* WDImageBrowseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD071C474254005825B8 /* WDImageBrowseTests.m */; };
 		B65DAD131C474254005825B8 /* WDImageBrowseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD121C474254005825B8 /* WDImageBrowseUITests.m */; };
+		B65DAD2A1C474343005825B8 /* UIView+WDHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD221C474343005825B8 /* UIView+WDHorizontalTableView.m */; };
+		B65DAD2B1C474343005825B8 /* WDHorizontalTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD241C474343005825B8 /* WDHorizontalTableView.m */; };
+		B65DAD2C1C474343005825B8 /* WDHorizontalTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD261C474343005825B8 /* WDHorizontalTableViewCell.m */; };
+		B65DAD2D1C474343005825B8 /* WDHorizontalTableViewCellPool.m in Sources */ = {isa = PBXBuildFile; fileRef = B65DAD281C474343005825B8 /* WDHorizontalTableViewCellPool.m */; };
+		B6B490691C4744D9009784DD /* WDImagesBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B490681C4744D9009784DD /* WDImagesBrowseView.m */; };
+		B6B4906C1C4747F6009784DD /* WDImagesBrowseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B6B4906B1C4747F6009784DD /* WDImagesBrowseTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +48,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7E75747F6650842B6F1A673F /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B65753B61C48DA5F001374DB /* 200921922311483_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 200921922311483_2.jpg; sourceTree = "<group>"; };
+		B65753B71C48DA5F001374DB /* 200912121754594322.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 200912121754594322.jpg; sourceTree = "<group>"; };
+		B65753B81C48DA5F001374DB /* 1347158_132411659346_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1347158_132411659346_2.jpg; sourceTree = "<group>"; };
+		B65753B91C48DA5F001374DB /* 25b1OOOPIC19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 25b1OOOPIC19.jpg; sourceTree = "<group>"; };
+		B65753BE1C48DC87001374DB /* ImageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScrollView.h; sourceTree = "<group>"; };
+		B65753BF1C48DC87001374DB /* ImageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageScrollView.m; sourceTree = "<group>"; };
 		B65DACE71C474254005825B8 /* WDImageBrowse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDImageBrowse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65DACEB1C474254005825B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B65DACED1C474254005825B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +72,21 @@
 		B65DAD0E1C474254005825B8 /* WDImageBrowseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WDImageBrowseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B65DAD121C474254005825B8 /* WDImageBrowseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WDImageBrowseUITests.m; sourceTree = "<group>"; };
 		B65DAD141C474254005825B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B65DAD211C474343005825B8 /* UIView+WDHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WDHorizontalTableView.h"; sourceTree = "<group>"; };
+		B65DAD221C474343005825B8 /* UIView+WDHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WDHorizontalTableView.m"; sourceTree = "<group>"; };
+		B65DAD231C474343005825B8 /* WDHorizontalTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHorizontalTableView.h; sourceTree = "<group>"; };
+		B65DAD241C474343005825B8 /* WDHorizontalTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDHorizontalTableView.m; sourceTree = "<group>"; };
+		B65DAD251C474343005825B8 /* WDHorizontalTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHorizontalTableViewCell.h; sourceTree = "<group>"; };
+		B65DAD261C474343005825B8 /* WDHorizontalTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDHorizontalTableViewCell.m; sourceTree = "<group>"; };
+		B65DAD271C474343005825B8 /* WDHorizontalTableViewCellPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHorizontalTableViewCellPool.h; sourceTree = "<group>"; };
+		B65DAD281C474343005825B8 /* WDHorizontalTableViewCellPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDHorizontalTableViewCellPool.m; sourceTree = "<group>"; };
+		B65DAD291C474343005825B8 /* WDHorizontalTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDHorizontalTableViewDelegate.h; sourceTree = "<group>"; };
+		B6B490671C4744D9009784DD /* WDImagesBrowseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImagesBrowseView.h; sourceTree = "<group>"; };
+		B6B490681C4744D9009784DD /* WDImagesBrowseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImagesBrowseView.m; sourceTree = "<group>"; };
+		B6B4906A1C4747F6009784DD /* WDImagesBrowseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WDImagesBrowseTableViewCell.h; sourceTree = "<group>"; };
+		B6B4906B1C4747F6009784DD /* WDImagesBrowseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WDImagesBrowseTableViewCell.m; sourceTree = "<group>"; };
+		C9DE8CC0C822D0339B6625FD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EDA9ACDC52AB77FCF8634DA7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A483F89BCE201F3A65416932 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +115,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		05D245D27C260CF6BDA6C973 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7E75747F6650842B6F1A673F /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F9EC2A14A3C0E367760B5E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C9DE8CC0C822D0339B6625FD /* Pods.debug.xcconfig */,
+				EDA9ACDC52AB77FCF8634DA7 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B65753B51C48DA58001374DB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				B65753B61C48DA5F001374DB /* 200921922311483_2.jpg */,
+				B65753B71C48DA5F001374DB /* 200912121754594322.jpg */,
+				B65753B81C48DA5F001374DB /* 1347158_132411659346_2.jpg */,
+				B65753B91C48DA5F001374DB /* 25b1OOOPIC19.jpg */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		B65DACDE1C474254005825B8 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +150,8 @@
 				B65DAD061C474254005825B8 /* WDImageBrowseTests */,
 				B65DAD111C474254005825B8 /* WDImageBrowseUITests */,
 				B65DACE81C474254005825B8 /* Products */,
+				3F9EC2A14A3C0E367760B5E0 /* Pods */,
+				05D245D27C260CF6BDA6C973 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +168,9 @@
 		B65DACE91C474254005825B8 /* WDImageBrowse */ = {
 			isa = PBXGroup;
 			children = (
+				B65753B51C48DA58001374DB /* Resource */,
+				B65DAD2E1C4743AD005825B8 /* Library */,
+				B65DAD201C474343005825B8 /* WDHorizontalTableView */,
 				B65DACED1C474254005825B8 /* AppDelegate.h */,
 				B65DACEE1C474254005825B8 /* AppDelegate.m */,
 				B65DACF01C474254005825B8 /* ViewController.h */,
@@ -143,6 +211,35 @@
 			path = WDImageBrowseUITests;
 			sourceTree = "<group>";
 		};
+		B65DAD201C474343005825B8 /* WDHorizontalTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B65DAD211C474343005825B8 /* UIView+WDHorizontalTableView.h */,
+				B65DAD221C474343005825B8 /* UIView+WDHorizontalTableView.m */,
+				B65DAD231C474343005825B8 /* WDHorizontalTableView.h */,
+				B65DAD241C474343005825B8 /* WDHorizontalTableView.m */,
+				B65DAD251C474343005825B8 /* WDHorizontalTableViewCell.h */,
+				B65DAD261C474343005825B8 /* WDHorizontalTableViewCell.m */,
+				B65DAD271C474343005825B8 /* WDHorizontalTableViewCellPool.h */,
+				B65DAD281C474343005825B8 /* WDHorizontalTableViewCellPool.m */,
+				B65DAD291C474343005825B8 /* WDHorizontalTableViewDelegate.h */,
+			);
+			path = WDHorizontalTableView;
+			sourceTree = "<group>";
+		};
+		B65DAD2E1C4743AD005825B8 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				B6B490671C4744D9009784DD /* WDImagesBrowseView.h */,
+				B6B490681C4744D9009784DD /* WDImagesBrowseView.m */,
+				B6B4906A1C4747F6009784DD /* WDImagesBrowseTableViewCell.h */,
+				B6B4906B1C4747F6009784DD /* WDImagesBrowseTableViewCell.m */,
+				B65753BE1C48DC87001374DB /* ImageScrollView.h */,
+				B65753BF1C48DC87001374DB /* ImageScrollView.m */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +247,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B65DAD171C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowse" */;
 			buildPhases = (
+				5200FBAE10859932FA5034C0 /* Check Pods Manifest.lock */,
 				B65DACE31C474254005825B8 /* Sources */,
 				B65DACE41C474254005825B8 /* Frameworks */,
 				B65DACE51C474254005825B8 /* Resources */,
+				BC392C3C1286AA7E44CE06A0 /* Embed Pods Frameworks */,
+				44B0EB62272734E21BAAC348 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +346,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65753BA1C48DA5F001374DB /* 200921922311483_2.jpg in Resources */,
+				B65753BC1C48DA5F001374DB /* 1347158_132411659346_2.jpg in Resources */,
+				B65753BD1C48DA5F001374DB /* 25b1OOOPIC19.jpg in Resources */,
 				B65DACFD1C474254005825B8 /* LaunchScreen.storyboard in Resources */,
+				B65753BB1C48DA5F001374DB /* 200912121754594322.jpg in Resources */,
 				B65DACFA1C474254005825B8 /* Assets.xcassets in Resources */,
 				B65DACF51C474254005825B8 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +372,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44B0EB62272734E21BAAC348 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5200FBAE10859932FA5034C0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BC392C3C1286AA7E44CE06A0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B65DACE31C474254005825B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B65DACF21C474254005825B8 /* ViewController.m in Sources */,
+				B65753C01C48DC87001374DB /* ImageScrollView.m in Sources */,
+				B65DAD2A1C474343005825B8 /* UIView+WDHorizontalTableView.m in Sources */,
+				B65DAD2B1C474343005825B8 /* WDHorizontalTableView.m in Sources */,
 				B65DACEF1C474254005825B8 /* AppDelegate.m in Sources */,
+				B65DAD2D1C474343005825B8 /* WDHorizontalTableViewCellPool.m in Sources */,
 				B65DACF81C474254005825B8 /* WDImageBrowse.xcdatamodeld in Sources */,
+				B6B490691C4744D9009784DD /* WDImagesBrowseView.m in Sources */,
+				B65DAD2C1C474343005825B8 /* WDHorizontalTableViewCell.m in Sources */,
+				B6B4906C1C4747F6009784DD /* WDImagesBrowseTableViewCell.m in Sources */,
 				B65DACEC1C474254005825B8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +574,7 @@
 		};
 		B65DAD181C474254005825B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DE8CC0C822D0339B6625FD /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WDImageBrowse/Info.plist;
@@ -426,6 +586,7 @@
 		};
 		B65DAD191C474254005825B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA9ACDC52AB77FCF8634DA7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WDImageBrowse/Info.plist;
@@ -502,6 +663,7 @@
 				B65DAD191C474254005825B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65DAD1A1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseTests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +672,7 @@
 				B65DAD1C1C474254005825B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B65DAD1D1C474254005825B8 /* Build configuration list for PBXNativeTarget "WDImageBrowseUITests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +681,7 @@
 				B65DAD1F1C474254005825B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
